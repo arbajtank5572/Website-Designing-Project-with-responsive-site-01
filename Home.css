@@ -1,0 +1,1823 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    height: 70px;
+    background-color: #0f3cc9;
+    display: flex;
+}
+
+/* Offcanvas-Sidebar */
+
+.offcanvas-display {
+    display: none;
+}
+
+/* bars-icon */
+
+.icon-dp-none {
+    display: none;
+}
+
+/* jio-logo-div */
+
+.margin-left-01 {
+    margin-left: 120px;
+}
+
+.Search-div {
+    display: none;
+}
+
+.navbar-links {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 0px 0px 0px 50px;
+}
+
+.navbar-links:hover {
+    opacity: 0.7;
+}
+
+.span-New {
+    background-color: #e30513;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 12px 3px 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 3px;
+    left: 685px;
+}
+
+/* icons */
+
+.icons-div {
+    display: flex;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.round-shape {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.padding {
+    padding-top: 17px;
+}
+
+.padding-01 {
+    padding-top: 15px;
+    color: #0c48b0;
+}
+
+.padding-01:hover {
+    color: black;
+}
+
+/*slider */
+
+.carousel {
+    display: block;
+}
+
+.heading {
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: -1.44px;
+    line-height: 1;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.heading2 {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -1.12px;
+    line-height: 1.33;
+    margin-top: 20px;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+}
+
+.digital-tv {
+    position: absolute;
+    top: 500px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -1.12px;
+    line-height: 1.33;
+    margin-top: 20px;
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+
+.Buy-Now-btn {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 60px;
+    position: absolute;
+    top: 230px;
+    left: 90px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.8px;
+    line-height: 1.5;
+}
+
+.Buy-Now-btn:hover {
+    background-color: #2c4bab;
+    border: none;
+}
+
+.learn-more-btn {
+    width: 120px;
+    background: transparent;
+    position: absolute;
+    left: 210px;
+    border: solid 1px white;
+}
+
+.learn-more-btn:hover {
+    border: solid 1px blue;
+    background: transparent;
+}
+
+/* Carousel-responsive */
+
+.Carousel-responsive {
+    display: none;
+}
+
+/* Section-One */
+
+.main-01 {
+    height: 1000px;
+}
+
+/* icons-bar */
+
+.iconsbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.icon-01 {
+    height: 70px;
+    width: 70px;
+    background-color: #e7ebf8;
+    border-radius: 50%;
+    margin: 50px 0px 0px 50px;
+}
+
+.div-ds-none-01 {
+    display: none;
+}
+
+.FA-Icon {
+    position: absolute;
+    top: 83px;
+    left: 467px;
+    color: #0f3cc9;
+}
+
+.FA-Icon-01 {
+    position: absolute;
+    left: 594px;
+}
+
+.FA-Icon-02 {
+    position: absolute;
+    left: 710px;
+}
+
+.FA-Icon-03 {
+    position: absolute;
+    left: 832px;
+}
+
+.FA-Icon-04 {
+    position: absolute;
+    left: 945px;
+}
+
+.FA-Icon-05 {
+    position: absolute;
+    left: 1068px;
+}
+
+.icon-01:hover {
+    border-radius: 10px;
+}
+
+.span-New01 {
+    position: absolute;
+    top: 32px;
+    left: 718px;
+}
+
+.payment {
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: -.07px;
+    line-height: 1.4285714286;
+    position: absolute;
+    top: 130px;
+    left: 457px;
+}
+
+.bils {
+    position: absolute;
+    left: 578px;
+}
+
+.JioairFiber {
+    position: absolute;
+    left: 675px;
+}
+
+.jiosim {
+    position: absolute;
+    left: 810px;
+}
+
+.JioFiber {
+    position: absolute;
+    left: 930px;
+}
+
+.portjio {
+    position: absolute;
+    left: 1055px;
+}
+
+.simple-line {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    text-align: center;
+    padding-top: 80px;
+}
+
+/* two-images */
+
+.Two-Images {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bc-image01 {
+    background-image: url(lady-image.webp);
+    height: 584px;
+    width: 584px;
+    margin-right: 20px;
+}
+
+.margin-left {
+    margin: 30px 0px 0px 30px;
+}
+
+.bc-image-lines {
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: -1.2px;
+    line-height: 1.1;
+    color: white;
+    margin-top: 10px;
+}
+
+.check-btn {
+    height: 50px;
+    width: 150px;
+    background-color: #fef2e9;
+    color: #cd3d00;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.8px;
+    line-height: 1.5;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 20px;
+}
+
+.check-btn:hover {
+    color: white;
+    background-color: orange;
+}
+
+.bc-image02 {
+    background-image: url(children-image.webp);
+    height: 584px;
+    width: 584px;
+}
+
+.more-btn {
+    height: 50px;
+    width: 120px;
+    background-color: #E7EBF8;
+    color: #0f3cc9;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    line-height: 1.5;
+    font-size: 1rem;
+    border: none;
+    margin-top: 20px;
+    border-radius: 40px 40px 40px 40px;
+}
+
+.more-btn:hover {
+    color: white;
+    background-color: #587cec;
+}
+
+/* Section-Two */
+
+.text-center {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    text-align: center;
+    padding: 60px 0px 30px 0px;
+}
+
+.text-center01 {
+    text-align: center;
+    color: gray;
+}
+
+.color-grey {
+    color: grey;
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: -0.9px;
+    line-height: 1.33333;
+}
+
+.display-flex {
+    display: flex;
+    margin-top: 30px;
+}
+
+.width-20 {
+    width: 38%;
+    background-color: #D9008D;
+    height: 530px;
+}
+
+.margin-left01 {
+    margin: 100px 0px 0px 120px;
+}
+
+.btn-color {
+    background-color: #ff99db;
+    color: #62003f;
+}
+
+.btn-color:hover {
+    background-color: white;
+    color: #62003f;
+}
+
+.width-70 {
+    width: 62%;
+}
+
+video {
+    width: 100%;
+}
+
+/* responsive-video-card */
+
+.bc-color-pink {
+    display: none;
+}
+
+/* marquee-cards */
+
+.all-cards {
+    display: flex;
+    margin-top: 20px;
+    width: 3000px;
+}
+
+/* card-one */
+
+.card-01 {
+    display: flex;
+    height: 200px;
+    width: 352px;
+    background-color: #00b259;
+    border-radius: 14px;
+    margin-left: 20px;
+}
+
+.space {
+    margin: 10px 0px 0px 10px;
+}
+
+.jio-games {
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: -.48px;
+    line-height: 1.5;
+    position: relative;
+    bottom: 6px;
+    left: 3px;
+}
+
+.Experience {
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: -.72px;
+    line-height: 1.33333;
+}
+
+.Explore-btn {
+    background-color: #002d16;
+    color: white;
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 38px;
+    margin-top: 20px;
+}
+
+.position {
+    position: absolute;
+    left: 70px;
+}
+
+/* card-two */
+
+.card-02 {
+    background-color: #0f3cc9;
+}
+
+.clr-white {
+    color: white;
+}
+
+.ex-btn01 {
+    background-color: #9eb5fa;
+    color: #061951
+}
+
+.position-01 {
+    position: absolute;
+    left: 440px;
+}
+
+/* card-three */
+
+.card-03 {
+    background-color: #d9008d;
+}
+
+.ex-btn03 {
+    background-color: #ff99db;
+    color: #061951;
+}
+
+.position-02 {
+    position: absolute;
+    left: 780px;
+}
+
+/* card-four */
+
+.card-04 {
+    background-color: #1eccb0;
+}
+
+.clr-black {
+    color: black;
+}
+
+.ex-btn04 {
+    background-color: #0e5c4f;
+    color: white;
+}
+
+.position-03 {
+    position: absolute;
+    left: 1180px;
+}
+
+/* card-five */
+
+.card-05 {
+    background-color: #0f3cc9;
+}
+
+.ex-btn05 {
+    background-color: #9eb5fa;
+    color: #061951;
+}
+
+.position-05 {
+    position: absolute;
+    left: 1550px;
+}
+
+/* card-six */
+
+.card-06 {
+    background-color: #0078ad;
+}
+
+.ex-btn06 {
+    background-color: #89dcff;
+    color: #000093;
+}
+
+.position-06 {
+    position: absolute;
+    left: 1920px;
+}
+
+/* card-seven */
+
+.card-07 {
+    background-color: #fa7d19;
+}
+
+.ex-btn07 {
+    background-color: #7b1604;
+    color: white;
+}
+
+.position-07 {
+    position: absolute;
+    left: 2290px;
+}
+
+/* card-eight */
+
+.card-08 {
+    background-color: #436adf;
+}
+
+.ex-btn08 {
+    background-color: #9eb5fa;
+    color: #061951;
+}
+
+.position-08 {
+    position: absolute;
+    left: 2665px;
+}
+
+/*  View all button  */
+
+.margin-top {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn-view {
+    color: #0a2885;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    border-radius: 30px;
+    padding: 12px;
+    background: transparent;
+    border: solid 1px gray;
+}
+
+.btn-view:hover {
+    border: solid 1px blue;
+}
+
+/* section-Three */
+
+.bc-color {
+    background-color: #6D17CE;
+    display: flex;
+    height: 450px;
+    width: 1220px;
+    border-radius: 20px;
+    margin: 30px 150px 0px 150px;
+}
+
+.parent-div {
+    padding: 80px 0px 0px 50px;
+}
+
+.jio-dive {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    letter-spacing: -1.12px;
+    line-height: 1.33;
+    margin-top: 20px;
+}
+
+.get-48 {
+    color: white;
+    padding: 20px 0px 20px
+}
+
+.btn-buy {
+    border: solid 1px grey;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    width: 135px;
+    height: 50px;
+}
+
+.btn-buy:hover {
+    border: solid 1px white;
+}
+
+.Image-poster {
+    position: absolute;
+    top: 2855px;
+    left: 770px;
+    border-radius: 20px;
+}
+
+/* Section-four/Three-cards */
+
+.Three-cards {
+    display: flex;
+    justify-content: center;
+}
+
+/* card-0.01 */
+
+.shop-card {
+    background-color: #0f3cc9;
+    height: 475px;
+    width: 390px;
+    border-radius: 15px;
+    margin: 80px 0px 0px 18px;
+}
+
+.border-radius {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.color-blue {
+    padding: 15px 0px 0px 20px;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.discounts {
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: -.96px;
+    line-height: 1.25;
+    color: white;
+}
+
+.btn-ajio {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    background-color: #9eb5fa;
+    color: #061951;
+    border-radius: 20px;
+    height: 30px;
+    width: 118px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-hamleys {
+    width: 130px;
+}
+
+.btn-book {
+    width: 160px;
+}
+
+.btn-ajio:hover {
+    background-color: #becefb;
+}
+
+/* Section-five/three-devices  */
+
+.three-devices {
+    display: flex;
+    justify-content: center;
+}
+
+/* device-one */
+
+.phone-box {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    margin: 30px 15px 0px 0px;
+}
+
+.phone-box:hover {
+    box-shadow: grey 0px 0px 2px 2px;
+}
+
+.btn-launch {
+    height: 25px;
+    width: 110px;
+    border: none;
+    background-color: #0c5273;
+    color: white;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: -.06px;
+    line-height: 1.33333;
+    border-radius: 4px;
+    margin: 20px 0px 0px 18px;
+}
+
+.position-center-01 {
+    margin-top: 10px;
+}
+
+.position-center-02 {
+    margin-top: 40px;
+}
+
+.Phone-Image-fonts {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.8px;
+    line-height: 1.5;
+    margin: 30px 0px 10px 20px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    letter-spacing: 1.5;
+    color: grey;
+    margin: 0px 0px 0px 20px;
+}
+
+.bc-Image {
+    background-image: url(carrier-desktop.webp);
+    height: 435px;
+    width: 1080px;
+    border-radius: 20px;
+    margin: 30px 150px 0px 210px;
+}
+
+.bc-image-lines01 {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    color: white;
+    margin-top: 10px;
+}
+
+.main-div-height {
+    height: 500px;
+}
+
+.career-fonts {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: -.12px;
+    line-height: 1.33333;
+    color: rgb(255 255 255 / 78%);
+    padding: 30px 0px 20px 0px;
+}
+
+.btn-opening {
+    background-color: #1144e4;
+    color: white;
+}
+
+/* section-six*/
+
+.section-six {
+    height: 750px;
+    background-color: #f5f5f5;
+}
+
+/* Three-card-01 */
+
+.world-card {
+    background-color: white;
+    height: 380px;
+    width: 370px;
+    border-radius: 15px;
+    margin: 40px 0px 0px 18px;
+}
+
+.color-blue {
+    padding: 15px 0px 0px 20px;
+}
+
+.font-weight {
+    font-weight: 700;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.3333;
+    color: black;
+}
+
+.grey-fonts {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    letter-spacing: 1.5;
+    color: grey;
+    padding-top: 10px;
+}
+
+.know-more-01 {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    color: #0a2885;
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 118px;
+    border: none;
+    margin-top: 20px;
+}
+
+.know-more-01:hover {
+    background-color: #becefb;
+}
+
+/* section-seven */
+
+/* business-card */
+
+.main-div-height-01 {
+    height: 600px;
+    display: block;
+}
+
+.bc-Image03 {
+    background-image: url(business-banner\ \(1\).webp);
+    background-size: cover;
+    height: 510px;
+    width: 1150px;
+    border-radius: 20px;
+    margin: 50px 140px 50px 180px;
+}
+
+.grow {
+    padding: 150px 0px 0px 40px;
+}
+
+.business-font-1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: -1.2px;
+    line-height: 1;
+    color: white;
+}
+
+.career-fonts-1 {
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.33333;
+    color: white;
+    padding: 5px 0px 10px 0px;
+}
+
+.btn-opening:hover {
+    background-color: #587cec;
+}
+
+/* footer */
+
+.bc-color-blue {
+    background-color: #0f3cc9;
+    height: 300px;
+    text-align: center;
+}
+
+.guidance-fonts {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    color: white;
+    padding: 50px 0px 25px 0px;
+}
+
+.hr-mt {
+    display: none;
+}
+
+.love-fonts {
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.33333;
+    color: rgb(255 255 255 / 78%);
+}
+
+.color {
+    color: rgb(255 255 255 / 78%);
+    margin: 20px 4px 0px 4px;
+    border: solid 1px rgb(103, 103, 233);
+}
+
+.color:hover {
+    border: solid 1px white;
+}
+
+/* links */
+
+.footer-links {
+    display: flex;
+    /* display: block; */
+    height: 350px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.links-fonts {
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: -.48px;
+    line-height: 1.5;
+}
+
+.a-tag {
+    margin: 20px 0px 0px 0px;
+    color: grey;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: -.07px;
+    line-height: 1.4285714286;
+    text-decoration: none;
+}
+
+.a-tag:hover {
+    background-color: rgb(200, 200, 212);
+    height: 20px;
+}
+
+.connect-wuth-us {
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: -.72px;
+    line-height: 1.33333333;
+}
+
+.icon-display-row {
+    display: flex;
+    position: relative;
+    top: 15px;
+    justify-content: be;
+}
+
+.icon-shape {
+    background-color: #0f3cc9;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 0px 15px 50px 0px;
+    color: white;
+}
+
+.icon-shape:hover {
+    background-color: #0b2c8d;
+}
+
+.position-top {
+    position: absolute;
+    top: 18px;
+    left: 7px;
+}
+
+.position-top01 {
+    position: absolute;
+    top: 17px;
+    left: 59px;
+}
+
+.position-top02 {
+    position: absolute;
+    top: 18px;
+    left: 107px;
+}
+
+.position-top03 {
+    position: absolute;
+    top: 18px;
+    left: 156px;
+}
+
+.position-top04 {
+    position: absolute;
+    top: 18px;
+    left: 208px;
+}
+
+.gpay-appstore {
+    margin: 20px 4px 0px 4px;
+}
+
+.last-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 50px;
+    position: relative;
+}
+
+.paragraph-font {
+    font-weight: 500;
+    font-size: .75rem;
+    letter-spacing: -.06px;
+    line-height: 1.333333;
+    color: rgb(0 0 0 / 65%);
+}
+
+.right-side {
+    position: absolute;
+    left: 260px;
+    top: 13px;
+}
+
+.four-lins {
+    display: flex;
+}
+
+.lins-01 {
+    padding: 15px 10px 0px 10px;
+    color: blue;
+}
+
+.br-display {
+    display: none;
+}
+
+/* bootstrap collapse */
+
+.collapse-links {
+    display: none;
+}
+
+.five-icons {
+    display: none;
+}
+
+@media (max-width : 650px) and (min-width :320px) {
+
+    /* Navbar */
+
+    .navbar {
+        position: relative;
+    }
+
+    /* Offcanvas-Sidebar */
+
+    .offcanvas-display {
+        display: block;
+    }
+
+    .icons-div {
+        display: flex;
+        text-align: center;
+        margin-right: 0px;
+    }
+
+    .round-shape {
+        height: 35px;
+        width: 35px;
+        background-color: white;
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+
+    .padding {
+        padding-top: 17px;
+    }
+
+    .padding-01 {
+        padding-top: 15px;
+        color: #0c48b0;
+    }
+
+    .offcanvas-links {
+        color: rgb(59, 57, 57);
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        font-weight: 500;
+        color: rgb(72, 68, 68);
+        padding-left: 10px;
+    }
+
+    .fa-plus-icon {
+        margin-top: 10px;
+    }
+
+    /* bars-icon */
+
+    .icon-dp-none {
+        display: block;
+        margin-left: 20px;
+        opacity: 0.8;
+    }
+
+    /* jio-logo-div */
+
+    .margin-left-01 {
+        margin-left: 0px;
+        position: absolute;
+        left: 50px;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .span-New {
+        display: none;
+    }
+
+    .span-New-canvas {
+        background-color: #e30513;
+        color: white;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 3px 12px 3px 12px;
+        border-radius: 20px;
+        position: absolute;
+        left: 330px;
+    }
+
+    .Search-div {
+        display: block;
+        display: flex;
+        height: 35px;
+        width: 200px;
+        background-color: #0a2885;
+        border-radius: 25px;
+        position: absolute;
+        left: 120px;
+    }
+
+    .fa-magnifying-glass {
+        color: white;
+        position: absolute;
+        left: 10px;
+    }
+
+    .search-font {
+        color: white;
+        position: absolute;
+        top: 5px;
+        left: 50px;
+        font-weight: 500;
+    }
+
+    /* icons */
+
+    .icons-div {
+        margin-right: 0px;
+    }
+
+    .round-shape {
+        margin-left: -60px;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .padding-01 {
+        padding-top: 15px;
+    }
+
+    /* Carousel */
+
+    .carousel {
+        display: none;
+    }
+
+    /* Carousel-responsive */
+
+    .Carousel-responsive {
+        display: block;
+    }
+
+    /* slide-image-one */
+
+    .heading {
+        font-size: 2rem;
+        letter-spacing: -.96px;
+        line-height: 1;
+        position: absolute;
+        top: 230px;
+        left: 25px;
+    }
+
+    .heading2 {
+        color: white;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        margin-top: 20px;
+        position: absolute;
+        top: 290px;
+        left: 25px;
+    }
+
+    .Buy-Now-btn {
+        margin-top: 40px;
+        position: absolute;
+        top: 370px;
+        left: 25px;
+    }
+
+    /*slide-image-two*/
+
+    .max-width {
+        max-width: 350px;
+    }
+
+    .learn-more-btn {
+        background: transparent;
+        position: absolute;
+        /* top: 425px; */
+        left: 135px;
+        border: solid 1px white;
+    }
+
+    /*slide-image-three*/
+
+    .position-heading {
+        position: absolute;
+        top: 220px;
+        max-width: 350px;
+    }
+
+    /* Section-One */
+
+    .main-01 {
+        height: 950px;
+    }
+
+    /* icons-bar */
+
+    .iconsbar {
+        justify-content: space-evenly;
+    }
+
+    .icon-01 {
+        height: 50px;
+        width: 50px;
+        margin: 50px 0px 0px 0px;
+    }
+
+    .div-ds-none {
+        display: none;
+    }
+
+    .div-ds-none-01 {
+        display: block;
+    }
+
+    .FA-Icon {
+        position: absolute;
+        top: 75px;
+        left: 27px;
+    }
+
+    .FA-Icon-01 {
+        position: absolute;
+        left: 99px;
+    }
+
+    .FA-Icon-02 {
+        position: absolute;
+        left: 163px;
+    }
+
+    .FA-Icon-03 {
+        position: absolute;
+        left: 229px;
+    }
+
+    .FA-Icon-04 {
+        position: absolute;
+        left: 291px;
+    }
+
+    .FA-Icon-05 {
+        position: absolute;
+        left: 358px;
+    }
+
+    .span-New01 {
+        position: absolute;
+        top: 33px;
+        left: 165px;
+        padding: 2px 10px 2px 10px;
+    }
+
+    .payment {
+        font-weight: 500;
+        font-size: .875rem;
+        letter-spacing: -.07px;
+        line-height: 1.4285714286;
+        position: absolute;
+        top: 100px;
+        left: 15px;
+        max-width: 50px;
+        text-align: center;
+    }
+
+    .bils {
+        position: absolute;
+        left: 80px;
+    }
+
+    .JioairFiber {
+        position: absolute;
+        left: 145px;
+    }
+
+    .jiosim {
+        position: absolute;
+        left: 215px;
+    }
+
+    .JioFiber {
+        position: absolute;
+        left: 283px;
+    }
+
+    .portjio {
+        position: absolute;
+        left: 350px;
+    }
+
+    .simple-line {
+        font-size: 2rem;
+        letter-spacing: -.96px;
+        line-height: 1;
+    }
+
+    /* two-images */
+
+    .Two-Images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bc-image01 {
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        margin: 0px 0px 0px 50px;
+    }
+
+    .Jio-True5G-Logo {
+        height: 30px;
+        width: 90px;
+    }
+
+    .bc-image-lines {
+        font-size: 1.5rem;
+        letter-spacing: -.72x;
+        line-height: 1.1666666667;
+    }
+
+    .check-btn {
+        height: 30px;
+    }
+
+    /* image-two */
+
+    .bc-image02 {
+        background-image: url(children-image.webp);
+        height: 300px;
+        width: 300px;
+        background-size: cover;
+        margin: 18px 0px 0px 50px;
+    }
+
+    .more-btn {
+        height: 30px;
+        width: 110px;
+    }
+
+    /* Section-Two */
+
+    .text-margin {
+        margin-left: 0px;
+    }
+
+    .text-center {
+        padding: 0px 65px 15px 25px;
+        font-size: 2rem;
+        letter-spacing: -.96px;
+        line-height: 1;
+    }
+
+    .color-grey {
+        max-width: 330px;
+        padding: 0px 0px 20px 0px;
+    }
+
+    /* 1-st-video */
+
+    .display-flex {
+        display: none;
+    }
+
+    /* responsive-video-card  */
+
+    .bc-color-pink {
+        background-color: #D9008D;
+        height: 475px;
+        width: 344px;
+        display: block;
+        margin-left: 35px;
+    }
+
+    .video-section {
+        padding: 30px 0px 0px 25px;
+    }
+
+    .video-1 {
+        height: 200px;
+        width: 300px;
+    }
+
+    .jio-cinema {
+        margin-top: 15px;
+    }
+
+    .btn-color {
+        margin-top: 20px;
+    }
+
+    /*  View all button  */
+
+    .margin-top {
+        margin: 40px 0px 30px 0px;
+    }
+
+    /* section-Three */
+
+    .text-margin-1 {
+        margin-left: 30px;
+    }
+
+    .padding-right {
+        padding-right: 65px;
+        font-weight: 500;
+        font-size: 1.125rem;
+        letter-spacing: -.09px;
+        line-height: 1.33333;
+    }
+
+    .bc-color {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 480px;
+        width: 345px;
+        margin: 30px 0px 0px 30px;
+    }
+
+    .Image-poster {
+        position: absolute;
+        top: 2682px;
+        left: 30px;
+        height: 250px;
+        width: 350px;
+    }
+
+    .parent-div {
+        margin-bottom: 30px;
+    }
+
+    .jio-dive {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: -1.12px;
+        line-height: 1.33;
+        padding-top: 500px;
+    }
+
+    .get-48 {
+        color: white;
+        padding: 20px 0px 20px
+    }
+
+    .btn-buy {
+        border: solid 1px grey;
+        border-radius: 30px;
+        background: transparent;
+        color: white;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        width: 135px;
+        height: 50px;
+    }
+
+    .btn-buy:hover {
+        border: solid 1px white;
+    }
+
+    /* Section-four/Three-cards */
+
+    .Three-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* card-0.01 */
+
+    .shop-card {
+        height: 430px;
+        width: 340px;
+        margin: 50px 20px 0px 35px;
+    }
+
+    .border-radius {
+        height: 250px;
+    }
+
+    /* Section-five/three-devices  */
+
+    .font-padding {
+        padding: 30px 0px 20px 0px;
+    }
+
+    .text-center01 {
+        font-weight: 500;
+        font-size: 1.125rem;
+        letter-spacing: -0.9px;
+        line-height: 1.33333;
+        max-width: 360px;
+        padding-left: 50px;
+
+    }
+
+    .three-devices {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .main-div-height {
+        height: 600px;
+    }
+
+    .bc-Image {
+        background-image: url(jiobusisness-mobile.webp);
+        background-size: cover;
+        height: 550px;
+        width: 90%;
+        margin: 30px 20px 0px 20px;
+        position: relative;
+    }
+
+    .bc-image-lines01 {
+        font-size: 2rem;
+        letter-spacing: -1.2px;
+        line-height: 1;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 330px;
+        left: 20px;
+    }
+
+    .career-fonts {
+        font-size: 1.125rem;
+        letter-spacing: -0.9px;
+        color: black;
+        position: absolute;
+        top: 390px;
+        left: 20px;
+    }
+
+    .btn-opening {
+        position: absolute;
+        top: 470px;
+        left: 20px;
+        width: 300px;
+    }
+
+    /* section-six*/
+
+    .section-six {
+        height: 1650px;
+    }
+
+    /* Three-card-01 */
+
+    .card-margin {
+        margin-top: 50px;
+    }
+
+    .world-card {
+        background-color: white;
+        height: 380px;
+        width: 370px;
+        border-radius: 15px;
+        margin: 0px 0px 80px 20px;
+    }
+
+    .color-blue {
+        padding: 15px 0px 0px 20px;
+    }
+
+    .font-weight {
+        font-weight: 700;
+        font-size: 1.125rem;
+        letter-spacing: -.09px;
+        line-height: 1.3333;
+        color: black;
+    }
+
+    .grey-fonts {
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        letter-spacing: 1.5;
+        color: grey;
+        padding-top: 10px;
+    }
+
+    .know-more-01 {
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        color: #0a2885;
+        background-color: white;
+        border-radius: 20px;
+        height: 30px;
+        width: 118px;
+        border: none;
+        margin-top: 20px;
+    }
+
+    .know-more-01:hover {
+        background-color: #becefb;
+    }
+
+    /*FOOTER */
+
+    .bc-color-blue {
+        height: 370px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .guidance-fonts {
+        font-size: 2.5rem;
+        letter-spacing: -1.2px;
+        line-height: 1;
+    }
+
+    .hr-mt {
+        margin: 30px 0px -20px 0px;
+        border: solid 1px rgb(103, 103, 233);
+    }
+
+    .color {
+        color: rgb(255 255 255 / 78%);
+        margin: 20px 30px 0px 4px;
+        border: solid 1px rgb(103, 103, 233);
+    }
+
+    .color:hover {
+        border: solid 1px white;
+    }
+
+    /* links */
+
+    .footer-links {
+        display: none;
+    }
+
+    /* bootstrap collapse */
+
+    .collapse-links {
+        height: auto;
+        margin-top: 50px;
+        position: relative;
+        display: block;
+    }
+
+    .fa-plus {
+        position: absolute;
+        left: 350px;
+        color: #234175;
+    }
+
+    .Quetion {
+        padding: 10px 0px 0px 20px;
+    }
+
+    .anchor-tag {
+        color: #141414;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        text-decoration: none;
+        padding-left: 15px;
+    }
+
+    .hr-width {
+        width: 380px;
+        margin-left: 10px;
+    }
+
+    .five-icons {
+        margin-left: 20px;
+        display: block;
+    }
+
+    .icon-shape {
+        margin: 0px 15px 40px 0px;
+    }
+
+    /*  hr-line */
+
+    .br-display {
+        display: block;
+    }
+
+    .last-div {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0px 0px 10px;
+
+    }
+
+    .right-side {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+        bottom: 5px;
+    }
+
+    .lins-01 {
+        padding: 50px 10px 0px 15px;
+        color: #000093;
+    }
+}

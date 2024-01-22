@@ -1,0 +1,1420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    height: 70px;
+    background-color: #0f3cc9;
+    display: flex;
+}
+
+/* Offcanvas Sidebar */
+
+.offcanvas-display {
+    display: none;
+
+}
+
+/* jio-logo-div */
+
+.margin-left-01 {
+    margin-left: 120px;
+}
+
+.Search-div {
+    display: none;
+}
+
+.navbar-links {
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 0px 0px 0px 50px;
+}
+
+.navbar-links:hover {
+    opacity: 0.7;
+}
+
+.span-New {
+    background-color: #e30513;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 12px 3px 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 3px;
+    left: 688px;
+}
+
+/* icons */
+
+.icons-div {
+    display: flex;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.icons-div {
+    display: flex;
+    text-align: center;
+}
+
+.round-shape {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.padding-01 {
+    padding-top: 16px;
+    color: #0c48b0;
+}
+
+.padding-01:hover {
+    color: black;
+}
+
+/* navbar-2 */
+
+.navbar-2 {
+    height: 50px;
+    background-color: #0a2885;
+    padding: 10px 0px 0px 260px;
+}
+
+/*slider */
+
+.carousel {
+    display: block;
+}
+
+.heading {
+    color: white;
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    max-width: 500px;
+}
+
+.heading2 {
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -.09px;
+    line-height: 1.33333;
+    margin-top: 20px;
+    position: absolute;
+    top: 230px;
+    left: 100px;
+}
+
+.Buy-Now-btn {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 40px 40px 40px 40px;
+    margin-top: 40px;
+    position: absolute;
+    top: 270px;
+    left: 90px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.8px;
+    line-height: 1.5;
+}
+
+.Buy-Now-btn:hover {
+    background-color: #2c4bab;
+    border: none;
+}
+
+.learn-more-btn {
+    background: transparent;
+    position: absolute;
+    left: 225px;
+    border: solid 1px white;
+}
+
+.learn-more-btn:hover {
+    border: solid 1px blue;
+    background: transparent;
+}
+
+/* Carousel-responsive */
+
+.Carousel-responsive {
+    display: none;
+}
+
+
+/* SECTION-ONE */
+
+.main-01 {
+    height: 550px;
+}
+
+.bc-color {
+    background-color: #0f3cc9;
+    display: flex;
+    height: 480px;
+    width: 1200px;
+    border-radius: 20px;
+    margin: 100px auto 70px;
+}
+
+.parent-div {
+    padding: 100px 0px 0px 50px;
+}
+
+.font-weight {
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    line-height: 1;
+    letter-spacing: -1.92px;
+}
+
+.btn-01 {
+    background: transparent;
+    color: #becefb;
+    padding: 10px;
+    border: solid 1px rgb(82, 82, 242);
+    border-radius: 30px;
+    margin: 30px 5px 0px 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+}
+
+.btn-01:hover {
+    border: solid 1px white;
+}
+
+
+/* SECTION-TWO */
+
+/* main-div-02 */
+
+.main-02 {
+    background-color: #f5f5f5;
+    height: 750px;
+}
+
+.text-center {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.heading-01 {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1;
+    text-align: center;
+}
+
+.font-size {
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -.09px;
+    line-height: 1.333333;
+    padding-top: 20px;
+    color: rgb(95, 92, 92);
+}
+
+.padding-top-01 {
+    padding-top: 25px;
+}
+
+.Three-cards {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Three-card-01 */
+
+.user-card {
+    background-color: white;
+    height: 380px;
+    width: 380px;
+    border-radius: 15px;
+    margin: 40px 0px 0px 18px;
+}
+
+.padding {
+    padding: 15px 0px 0px 20px;
+}
+
+.font-weight-01 {
+    font-weight: 700;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.3333;
+    color: black;
+}
+
+.grey-fonts {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    letter-spacing: 1.5;
+    color: grey;
+    padding-top: 10px;
+}
+
+.jio-card {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    color: #0a2885;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin: 40px 0px 0px 15px;
+    height: 30px;
+    width: 118px;
+}
+
+.jio-card:hover {
+    background-color: #becefb;
+}
+
+.border-radius-01 {
+    border-radius: 16px 16px 15px 15px;
+}
+
+/* btn-services */
+
+.margin-top {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn-view {
+    color: #0a2885;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    border-radius: 30px;
+    padding: 12px;
+    background: transparent;
+    border: solid 1px gray;
+}
+
+.btn-view:hover {
+    border: solid 1px blue;
+}
+
+/* SECTION-THREE */
+
+/* main-div-03 */
+
+/* Jio-sim-card  */
+
+.bccolor-grey {
+    background-color: #e7ebf8;
+    margin-top: 70px;
+}
+
+.color-black {
+    color: black;
+}
+
+.btn-jio-online {
+    background-color: #0f3cc9;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.btn-jio-online:hover {
+    background-color: #0a2885;
+    border: none;
+}
+
+/* SECTION-FOUR */
+
+/* main-div-04 */
+
+.main-04 {
+    background-color: #e7ebf8;
+    height: 900px;
+    position: relative;
+}
+
+/* bootstrap-card  */
+
+.change-btn {
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    padding: 10px 0px 20px 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    position: absolute;
+    top: 225px;
+    left: 650px;
+}
+
+.mobile-card {
+    display: flex;
+    justify-content: center;
+}
+
+/* box-01 */
+
+.white-box {
+    height: 395px;
+    width: 390px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 135px 18px 18px 0px;
+}
+
+/* parent-div */
+
+.margin {
+    padding: 25px 0px 0px 20px;
+    position: relative;
+}
+
+.btn-apps {
+    height: 25px;
+    width: 165px;
+    border: none;
+    background-color: #0c5273;
+    color: white;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: -.06px;
+    line-height: 1.33333;
+    border-radius: 4px;
+}
+
+.btn-popular-plan {
+    width: 120px;
+}
+
+.price-99 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: -1.2px;
+    line-height: 1;
+    padding: 8px 0px 8px 0px;
+}
+
+.max-width {
+    max-width: 350px;
+}
+
+.border-image {
+    border-radius: 50%;
+}
+
+.more {
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: -0.7px;
+    line-height: 1.4285714286;
+    color: rgb(0 0 0 / 65%);
+}
+
+.GST {
+    position: absolute;
+    top: 70px;
+    left: 118px;
+}
+
+.more-02 {
+    padding-left: 95px;
+}
+
+.hr-color {
+    background-color: grey;
+    width: 350px;
+}
+
+.data-pack {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+}
+
+.data-01 {
+    padding-left: 70px;
+}
+
+.btn-02 {
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+}
+
+.btn-book-now {
+    background-color: #0f3cc9;
+    color: white;
+    margin-right: 10px;
+}
+
+.btn-book-now:hover {
+    background-color: #0a2885;
+}
+
+.btn-details {
+    color: #0a2885;
+    background-color: white;
+}
+
+.btn-details:hover {
+    background-color: #becefb;
+}
+
+/* btn-postpaid */
+
+.white-box-01 {
+    height: 330px;
+    width: 380px;
+}
+
+.price-699 {
+    padding-bottom: 55px;
+}
+
+.btn-width {
+    width: 100px;
+}
+
+.GST-1 {
+    position: absolute;
+    top: 70px;
+    left: 135px;
+}
+
+/* SECTION-FIVE */
+
+/* main-div-05 */
+
+.main-05 {
+    height: 830px;
+}
+
+/* THREE-CARD */
+
+.Three-cards {
+    display: flex;
+    justify-content: center;
+}
+
+/* card-0.01 */
+
+.benefits-card {
+    background-color: #0f3cc9;
+    height: 545px;
+    width: 390px;
+    border-radius: 25px;
+    margin: 60px 0px 0px 18px;
+}
+
+.border-radius {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.color-blue {
+    padding: 40px 0px 0px 20px;
+}
+
+.benefits {
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: -.96px;
+    line-height: 1.25;
+    color: white;
+}
+
+.small-font {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    padding-top: 5px;
+    color: hsl(0deg 0% 100% / 78%);
+}
+
+.btn-jio {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    background-color: #9eb5fa;
+    color: #061951;
+    border-radius: 25px;
+    padding: 13px 15px 13px 15px;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn-jio:hover {
+    background-color: #becefb;
+}
+
+/* SECTION-FIVE */
+
+/* main-div-05 */
+
+.main-005 {
+    height: 700px;
+}
+
+/* THREE-DEVICES */
+
+.three-devices {
+    display: flex;
+    justify-content: center;
+}
+
+/* device-one */
+
+.phone-box {
+    height: 360px;
+    width: 360px;
+    border: solid 1px grey;
+    border-radius: 20px;
+    margin: 30px 15px 0px 0px;
+}
+
+.imag-margin-1 {
+    margin: 40px 110px 0px 0px;
+}
+
+.phone-box:hover {
+    box-shadow: grey 0px 0px 2px 2px;
+}
+
+.btn-launch {
+    height: 25px;
+    width: 90px;
+    border: none;
+    background-color: #0c5273;
+    color: white;
+    font-weight: 700;
+    font-size: 0.75rem;
+    letter-spacing: -.06px;
+    line-height: 1.33333;
+    border-radius: 4px;
+    margin: 20px 0px 0px 18px;
+}
+
+.imag-margin-2 {
+    margin: 15px 0px 0px 70px;
+}
+
+.Phone-Image-fonts {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -0.8px;
+    line-height: 1.5;
+    margin: 30px 0px 10px 20px;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    letter-spacing: 1.5;
+    color: grey;
+    margin: 0px 0px 0px 20px;
+}
+
+/* 3rd-Device  */
+
+.btn-visit {
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+/*  shopping button  */
+
+.margin-top {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn-view {
+    color: #0a2885;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    border-radius: 30px;
+    padding: 12px;
+    background: transparent;
+    border: solid 1px gray;
+}
+
+.btn-view:hover {
+    border: solid 1px blue;
+}
+
+/* apps-card */
+
+.image-position {
+    position: absolute;
+    top: 5350px;
+    left: 760px;
+}
+
+/* FOOTER */
+
+.bc-color-blue {
+    background-color: #0f3cc9;
+    height: 300px;
+    text-align: center;
+}
+
+.guidance-fonts {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    color: white;
+    padding: 50px 0px 25px 0px;
+}
+
+.love-fonts {
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.33333;
+    color: rgb(255 255 255 / 78%);
+}
+
+.color {
+    color: rgb(255 255 255 / 78%);
+    margin: 20px 4px 0px 4px;
+    border: solid 1px rgb(103, 103, 233);
+}
+
+.color:hover {
+    border: solid 1px white;
+}
+
+/* links */
+
+.footer-links {
+    display: flex;
+    height: 350px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.links-fonts {
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: -.48px;
+    line-height: 1.5;
+}
+
+.a-tag {
+    margin: 20px 0px 0px 0px;
+    color: grey;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: -.07px;
+    line-height: 1.4285714286;
+    text-decoration: none;
+}
+
+.a-tag:hover {
+    background-color: rgb(200, 200, 212);
+    height: 20px;
+}
+
+.connect-wuth-us {
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: -.72px;
+    line-height: 1.33333333;
+}
+
+.icon-display-row {
+    display: flex;
+    position: relative;
+    top: 15px;
+    justify-content: be;
+}
+
+.icon-shape {
+    background-color: #0f3cc9;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 0px 15px 50px 0px;
+    color: white;
+}
+
+.icon-shape:hover {
+    background-color: #0b2c8d;
+}
+
+.position-top {
+    position: absolute;
+    top: 18px;
+    left: 7px;
+}
+
+.position-top01 {
+    position: absolute;
+    top: 18px;
+    left: 59px;
+}
+
+.position-top02 {
+    position: absolute;
+    top: 18px;
+    left: 107px;
+}
+
+.position-top03 {
+    position: absolute;
+    top: 18px;
+    left: 156px;
+}
+
+.position-top04 {
+    position: absolute;
+    top: 18px;
+    left: 208px;
+}
+
+.gpay-appstore {
+    margin: 20px 4px 0px 4px;
+}
+
+.last-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 50px;
+    position: relative;
+}
+
+.paragraph-font {
+    font-weight: 500;
+    font-size: .75rem;
+    letter-spacing: -.06px;
+    line-height: 1.333333;
+    color: rgb(0 0 0 / 65%);
+}
+
+.right-side {
+    position: absolute;
+    left: 260px;
+    top: 13px;
+}
+
+.four-lins {
+    display: flex;
+    padding-left: 220px;
+}
+
+.lins-01 {
+    padding: 15px 10px 0px 10px;
+    color: blue;
+}
+
+.hr-line {
+    height: 15px;
+    margin-top: 15px;
+}
+
+/* bootstrap collapse */
+
+.collapse-links {
+    display: none;
+}
+
+/* five-icons  */
+
+.five-icons {
+    display: none;
+}
+
+.four-links {
+    display: none;
+}
+
+/* Media Query */
+
+@media (max-width : 650px) and (min-width :320px) {
+
+    /* Offcanvas-Sidebar */
+
+    .offcanvas-display {
+        display: block;
+    }
+
+    .offcanvas-links {
+        color: rgb(59, 57, 57);
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        font-weight: 500;
+        color: rgb(72, 68, 68);
+        padding-left: 10px;
+    }
+
+    .fa-plus {
+        position: absolute;
+        color: #234175;
+    }
+
+    .fa-plus-icon {
+        position: absolute;
+        left: 340px;
+        margin-top: 13px;
+    }
+
+    /* bars-icon */
+
+    .icon-dp-none {
+        margin-left: 20px;
+        opacity: 0.8;
+    }
+
+    /* jio-logo-div */
+
+    .margin-left-01 {
+        margin-left: 0px;
+        position: absolute;
+        left: 50px;
+    }
+
+    .Search-div {
+        display: flex;
+        height: 35px;
+        width: 190px;
+        background-color: #0a2885;
+        border-radius: 25px;
+        position: absolute;
+        left: 120px;
+    }
+
+    .fa-magnifying-glass {
+        color: white;
+    }
+
+    .search-font {
+        color: white;
+        position: absolute;
+        top: 5px;
+        left: 50px;
+        font-weight: 500;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .span-New {
+        display: none;
+    }
+
+    .span-New-canvas {
+        background-color: #e30513;
+        color: white;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 3px 12px 3px 12px;
+        border-radius: 20px;
+        position: absolute;
+        left: 320px;
+    }
+
+    /* icons */
+
+    .icons-div {
+        margin-right: 0px;
+    }
+
+    .round-shape {
+        margin-left: -70px;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .padding-01 {
+        padding-top: 15px;
+    }
+
+    /* navbar-2 */
+
+    .navbar-2 {
+        display: none;
+    }
+
+    /* Carousel */
+
+    .carousel {
+        display: none;
+    }
+
+    /* Carousel-responsive */
+
+    .Carousel-responsive {
+        display: block;
+    }
+
+    .heading {
+        font-size: 2.5em;
+        letter-spacing: -1.2px;
+        line-height: 1;
+        position: absolute;
+        top: 320px;
+        left: 25px;
+        max-width: 350px;
+    }
+
+    .heading2 {
+        font-weight: 500;
+        font-size: 1.125rem;
+        letter-spacing: -.09px;
+        line-height: 1.33333;
+        position: absolute;
+        top: 400px;
+        left: 25px;
+    }
+
+    .Buy-Now-btn {
+        position: absolute;
+        top: 440px;
+        left: 25px;
+    }
+
+    .learn-more-btn {
+        left: 160px;
+    }
+
+    /*slide-image-two*/
+
+    .mt-heading {
+        margin-top: 30px;
+    }
+
+    .recharge-font {
+        position: absolute;
+        top: 168px;
+        color: white;
+    }
+
+    .max-width {
+        top: 390px;
+    }
+
+    /*slide-image-three*/
+
+    .position-heading {
+        position: absolute;
+        top: 168px;
+        color: white;
+    }
+
+    .experiences-font {
+        color: white;
+        position: absolute;
+        top: 280px;
+    }
+
+    /* SECTION-ONE  */
+
+    .main-01 {
+        height: 300px;
+    }
+
+    /* easily-recharge-card */
+
+    .bc-color {
+        height: 280px;
+        width: 360px;
+        margin: 40px 0px 0px 25px;
+    }
+
+    .image-display {
+        display: none;
+    }
+
+    .parent-div {
+        padding: 50px 0px 0px 20px;
+    }
+
+    .font-weight {
+        font-size: 2.5rem;
+        line-height: 1;
+        letter-spacing: -1.2px;
+        max-width: 300px;
+    }
+
+    .font-size {
+        font-size: 1.125rem;
+        font-weight: 500;
+        letter-spacing: -.09px;
+        line-height: 1.333333;
+        padding-top: 20px;
+        color: rgb(95, 92, 92);
+    }
+
+    /* SECTION-TWO  */
+
+    /* main-div-02 */
+
+    .main-02 {
+        height: 1610px;
+    }
+
+    .text-center {
+        padding-top: 60px;
+        text-align: start;
+        padding-left: 25px;
+        max-width: 350px;
+    }
+
+    .heading-01 {
+        font-size: 3rem;
+        letter-spacing: -1.44px;
+        text-align: start;
+    }
+
+    .font-size {
+        font-size: 1.125rem;
+        font-weight: 500;
+        letter-spacing: -.09px;
+        line-height: 1.333333;
+        text-align: start;
+        color: rgb(0 0 0 / 65%);
+    }
+
+    .padding-top-01 {
+        max-width: 300px;
+        padding-top: 15px;
+    }
+
+    /* Three-card */
+
+    .Three-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Three-card-01 */
+
+    .user-card {
+        margin: 30px 0px 0px 18px;
+    }
+
+    .jio-card {
+        margin: 20px 0px 0px 0px;
+    }
+
+    /* btn-services */
+
+    .margin-top {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .btn-view {
+        color: #0a2885;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        border-radius: 30px;
+        padding: 12px;
+        background: transparent;
+        border: solid 1px gray;
+    }
+
+    .btn-view:hover {
+        border: solid 1px blue;
+    }
+
+    /* SECTION-THREE */
+
+    /* main-div-03 */
+
+    /* Jio-sim-card  */
+
+    .bccolor-grey {
+        height: 600px;
+        background-color: #e7ebf8;
+        margin: 70px 0px 50px 25px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .font-width {
+        max-width: 300px;
+    }
+
+    .btn-jio-online {
+        background-color: #0f3cc9;
+        color: white;
+        padding: 10px;
+        border: none;
+        margin: 10px 0px 40px 0px;
+    }
+
+    .image-size {
+        height: 280px;
+        width: 365px;
+    }
+
+    /* SECTION-FOUR */
+
+    /* main-div-04 */
+
+    .main-04 {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .padding-top-01 {
+        padding-top: 20px;
+    }
+
+    /* bootstrap-card  */
+
+    .change-btn {
+        top: 280px;
+        left: 100px;
+    }
+
+    .mobile-card {
+        display: flex;
+        flex-direction: column;
+        margin: 150px 0px 0px 10px;
+    }
+
+    /* box-01 */
+
+    .white-box {
+        margin: 0px 18px 20px 0px;
+    }
+
+    /* SECTION-FIVE */
+
+    /* main-div-05 */
+
+    .main-05 {
+        height: 830px;
+    }
+
+    /* THREE-CARD */
+
+    .Three-cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* card-0.01 */
+
+    .benefits-card {
+        margin: 30px 0px 0px 12px;
+    }
+
+    /* SECTION-FIVE */
+
+    /* main-div-05 */
+
+    .main-005 {
+        height: 1400px;
+    }
+
+    /* THREE-DEVICES */
+
+    .three-devices {
+        flex-direction: column;
+    }
+
+    /* device-one */
+
+    .phone-box {
+        margin: 30px 0px 0px 25px;
+    }
+
+    .imag-margin-1 {
+        margin: 40px 0px 0px 0px;
+    }
+
+    /* 3rd-Device  */
+
+    .btn-visit {
+        margin-bottom: 20px;
+    }
+
+    /* FOOTER */
+
+    .bc-color-blue {
+        height: 430px;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .guidance-fonts {
+        font-size: 2.5rem;
+        letter-spacing: -1.2px;
+        line-height: 1;
+        padding: 50px 0px 15px 0px;
+    }
+
+    .love-fonts {
+        padding-bottom: 20px;
+    }
+
+    .color {
+        color: rgb(255 255 255 / 78%);
+        border: solid 1px rgb(103, 103, 233);
+        width: 340px;
+        margin-left: 0px;
+    }
+
+    .color:hover {
+        border: solid 1px white;
+    }
+
+    /* links */
+
+    .footer-links {
+        display: none;
+    }
+
+    /* bootstrap collapse */
+
+    .collapse-links {
+        height: auto;
+        margin-top: 50px;
+        position: relative;
+        display: block;
+    }
+
+    .blue-icon {
+        left: 350px;
+        margin-top: 10px;
+    }
+
+    .Quetion {
+        padding: 10px 0px 0px 0px;
+    }
+
+    .anchor-tag {
+        color: #141414;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+
+    .hr-width {
+        width: 360px;
+        margin-left: 10px;
+    }
+
+    /* five-icons */
+
+    .five-icons {
+        margin-left: 20px;
+        display: block;
+    }
+
+    .icon-shape {
+        margin: 0px 15px 40px 0px;
+    }
+
+    .g-play-appstore {
+        margin: 0px 0px -18px 0px;
+    }
+
+    .gpay-appstore {
+        margin-left: 0px;
+    }
+
+    /*  hr-line */
+
+    .hr-none {
+        display: block;
+        margin-top: 40px;
+    }
+
+    .last-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-side {
+        position: absolute;
+        top: 60px;
+        left: 20px;
+    }
+
+    .four-lins {
+        display: none;
+    }
+
+    .four-links {
+        display: flex;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        height: 50px;
+    }
+
+    .line-height {
+        letter-spacing: -.06px;
+        line-height: 1.333333;
+        color: #0a2885;
+        font-weight: 500;
+        font-size: .75rem;
+        padding-right: 15px;
+    }
+
+}

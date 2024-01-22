@@ -1,0 +1,1379 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+    height: 70px;
+    background-color: #0f3cc9;
+    display: flex;
+}
+
+/* Offcanvas Sidebar */
+
+.offcanvas-display {
+    display: none;
+}
+
+/* jio-logo-div */
+
+.margin-left-01 {
+    margin-left: 120px;
+}
+
+.Search-div {
+    display: none;
+}
+
+.navbar-links {
+    color: white;
+    font-weight: 700;
+    text-transform: none;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    text-decoration: none;
+    padding: 0px 0px 0px 50px;
+}
+
+.navbar-links:hover {
+    opacity: 0.7;
+}
+
+.span-New {
+    background-color: #e30513;
+    color: white;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 3px 12px 3px 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 3px;
+    left: 690px;
+}
+
+/* icons */
+
+.icons-div {
+    display: flex;
+    text-align: center;
+    margin-right: 140px;
+}
+
+.round-shape {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.padding {
+    padding-top: 17px;
+}
+
+.padding-01 {
+    padding-top: 15px;
+    color: #0c48b0;
+}
+
+.padding-01:hover {
+    color: black;
+}
+
+/* SECTION-ONE */
+
+/* main-div-01 */
+
+.align-itom-center {
+    text-align: center;
+}
+
+.position-relative {
+    position: relative;
+    height: 560px;
+}
+
+.position-absolute {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+}
+
+.video-fonts {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1.0625;
+    color: white;
+    padding: 10px 0px 20px 0px;
+}
+
+.true-5G-fonts {
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: -.12px;
+    line-height: 1.333333;
+    color: white;
+    padding-bottom: 20px;
+}
+
+/* buttones */
+
+.btn-01 {
+    background-color: #0f3cc9;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    border: none;
+    padding: 13px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.btn-01:hover {
+    background-color: #587cec;
+}
+
+.btn-5G-future {
+    background-color: transparent;
+    border: solid 1px gray;
+}
+
+.btn-5G-future:hover {
+    border: solid 1px white;
+    background: transparent;
+}
+
+/* Jio-True-5G-Live-card */
+
+.bc-color-pink {
+    height: 600px;
+    background-color: #d9008d;
+}
+
+.true-5G-logo {
+    margin-top: 70px;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.div-width {
+    max-width: 350px;
+    margin: 0px 100px 0px 180px;
+}
+
+.font-weight-1 {
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: -.96px;
+    line-height: 1.25;
+    color: white;
+}
+
+.border-left {
+    border-left: solid 1px white;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.span-font {
+    font-weight: 900;
+    font-size: 3.5rem;
+    letter-spacing: -2.64px;
+    line-height: 1;
+    /* margin-top: 500px; */
+    color: white;
+    /* padding-left: 60px; */
+}
+
+.font-size {
+    font-weight: 900;
+    font-size: 1.5rem;
+    letter-spacing: -.72px;
+    line-height: 1.333333;
+    color: white;
+    padding-top: 30px;
+}
+
+.position-absolute-01 {
+    position: absolute;
+    top: 890px;
+    left: 1020px;
+}
+
+.font-width {
+    max-width: 600px;
+    padding: 30px 0px 0px 180px;
+}
+
+.paragraph-fonts {
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: -.07px;
+    line-height: 1.4285714286;
+    color: white;
+    padding-top: 20px;
+}
+
+.btn-interested {
+    background-color: #ff99db;
+    color: #62003f;
+    margin-top: 20px;
+}
+
+.btn-interested:hover {
+    background-color: #fff7fc;
+}
+
+/* SECTION-TWO */
+
+.main-02 {
+    background-color: #f5f5f5;
+    height: 660px;
+    /* width: 4000px; */
+}
+
+.text-center {
+    padding: 60px 0px 0px 350px;
+    text-align: center;
+}
+
+.heading-01 {
+    font-weight: 900;
+    font-size: 4rem;
+    letter-spacing: -1.92px;
+    line-height: 1;
+    max-width: 800px;
+}
+
+.font-size-01 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    letter-spacing: -.09px;
+    line-height: 1.333333;
+    padding-top: 20px;
+    color: rgb(95, 92, 92);
+}
+
+.padding-top-01 {
+    padding: 25px 350px 0px 0px;
+}
+
+/* marquee-card */
+
+/* card-01  */
+
+.all-cards {
+    display: flex;
+    margin-top: 45px;
+    width: 5000px;
+}
+
+/* card-01 */
+
+.card-01 {
+    background-image: url(see-a-whole-image.png);
+    background-size: cover;
+    height: 300px;
+    width: 520px;
+    border-radius: 14px;
+    margin-left: 20px;
+}
+
+.bc-image-fonts {
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: -.96px;
+    line-height: 1.25;
+    color: white;
+    padding: 180px 10px 0px 20px;
+}
+
+/* card-02 */
+
+.card-02 {
+    background-image: url(india-getting-5g.png);
+}
+
+/* card-03 */
+
+.card-03 {
+    background-image: url(multiple-camera-angles.png);
+}
+
+/* card-04 */
+
+.card-04 {
+    background-image: url(lady-image.png);
+}
+
+/* card-05 */
+
+.card-05 {
+    background-image: url(video-image.png);
+}
+
+/* card-05 */
+
+.card-06 {
+    background-image: url(taking-india-ahead-with.png);
+}
+
+/* SECTION-THREE */
+
+/* main-div-03 */
+
+.main-03 {
+    height: 760px;
+    background-color: #092272;
+}
+
+/* heading-fonts */
+
+.heading-02 {
+    line-height: 1.0625;
+    color: white;
+    padding: 70px 0px 20px 0px;
+    text-align: center;
+    margin-left: 400px;
+}
+
+.heading-03 {
+    display: none;
+}
+
+.color-grey {
+    color: rgb(255 255 255 / 78%);
+    text-align: center;
+}
+
+/* Three-Blue-Card  */
+
+.display-flex-card {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto auto 20px;
+}
+
+/* card-01 */
+
+.card-box {
+    background-color: #4848f9;
+    height: 345px;
+    width: 300px;
+    margin: 15px 8px 0px 8px;
+    border-radius: 25px;
+
+}
+
+.svg-icon {
+    color: #0f3cc9;
+    background-color: #e7ebf8;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 8px;
+    margin: 20px 0px 15px 25px;
+}
+
+.padding-left {
+    padding-left: 25px;
+}
+
+.paragraph {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    color: rgb(255 255 255 / 78%);
+    padding: 10px 20px 0px 25px;
+    max-width: 280px;
+}
+
+/* SECTION-FOUR */
+
+/* main-div-04 */
+
+.display-flex-01 {
+    display: flex;
+    margin-top: 30px;
+}
+
+/* bc-image-card */
+
+.bc-image {
+    background-image: url(revised-5g-d.png);
+    background-size: contain;
+    height: 447px;
+    width: 1200px;
+    border-radius: 20px;
+    margin: 20px auto 70px;
+}
+
+.parent-div {
+    padding: 80px 0px 0px 30px;
+}
+
+.font-weight-900 {
+    max-width: 600px;
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    line-height: 1;
+    letter-spacing: -1.92px;
+}
+
+/* bc-color-blur/video */
+
+.width-20 {
+    width: 35%;
+    background-color: #092272;
+    height: 554px;
+}
+
+.margin-left01 {
+    margin: 140px 0px 0px 100px;
+}
+
+.bc-color-black {
+    background-color: rgb(63, 63, 63);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.bc-image-lines {
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: -1.2px;
+    line-height: 1.1;
+    color: white;
+    margin-top: 10px;
+}
+
+.width-70 {
+    width: 65%;
+}
+
+video {
+    width: 100%;
+}
+
+.btn-5G-business {
+    margin: 30px 0px 0px 0px;
+}
+
+/* media-query-card */
+
+.bc-image-1 {
+    display: none;
+}
+
+/* media-query-video-card */
+
+.video-card {
+    display: none;
+}
+
+/* SECTION-FIVE*/
+
+.main-05 {
+    height: 780px;
+    background-color: #f5f5f5;
+}
+
+.Three-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.world-card {
+    background-color: white;
+    height: 380px;
+    width: 370px;
+    border: solid 1px rgb(220, 214, 214);
+    border-radius: 15px;
+    margin: 40px 0px 0px 18px;
+}
+
+.border-radius {
+    border-radius: 15px 15px 0px 0px;
+}
+
+.color-blue {
+    padding: 15px 0px 0px 20px;
+}
+
+.font-weight {
+    font-weight: 700;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.3333;
+    color: black;
+}
+
+.grey-fonts {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    color: grey;
+    padding-top: 10px;
+}
+
+.know-more-01 {
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    color: #0a2885;
+    background-color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 118px;
+    border: none;
+    margin-top: 20px;
+}
+
+.know-more-01:hover {
+    background-color: #ced0d8;
+}
+
+/* SECTION-SIX*/
+
+/* main-div-07 */
+
+.main-06 {
+    /* height: 480px; */
+    height: auto;
+}
+
+.margin {
+    margin: 80px 0px 0px 180px;
+}
+
+.font-weight-2 {
+    font-weight: 900;
+    font-size: 2.5rem;
+    letter-spacing: -1.2px;
+    line-height: 1.1;
+}
+
+.margin-top {
+    margin-top: 40px;
+}
+
+.Quetion {
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.33333;
+    position: relative;
+}
+
+.blue-icon {
+    position: absolute;
+    top: 12px;
+    left: 1085px;
+    color: #234175;
+}
+
+.hr-width {
+    width: 1120px;
+    height: 5px;
+}
+
+.black-font {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -.08px;
+    line-height: 1.5;
+    color: #000;
+    margin-top: -5px;
+}
+
+.max-width {
+    max-width: 1100px;
+}
+
+.max-width-1 {
+    max-width: 1020px;
+}
+
+.minus-margin {
+    margin-top: -18px;
+    max-width: 1100px;
+}
+
+/* FOOTER */
+
+/* main-div-7 */
+
+/* links */
+
+.main-07 {
+    background-color: #f5f5f5;
+    margin-top: 50px;
+}
+
+.footer-links {
+    display: flex;
+    height: 350px;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.links-fonts {
+    font-weight: 900;
+    font-size: 1rem;
+    letter-spacing: -.48px;
+    line-height: 1.5;
+}
+
+.a-tag {
+    margin: 20px 0px 0px 0px;
+    color: grey;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: -.07px;
+    line-height: 1.4285714286;
+    text-decoration: none;
+}
+
+.a-tag:hover {
+    background-color: rgb(200, 200, 212);
+    height: 20px;
+}
+
+.connect-wuth-us {
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: -.72px;
+    line-height: 1.33333333;
+}
+
+.icon-display-row {
+    display: flex;
+    position: relative;
+    top: 15px;
+    justify-content: be;
+}
+
+.icon-shape {
+    background-color: #0f3cc9;
+    color: white;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin: 0px 15px 50px 0px;
+}
+
+.icon-shape:hover {
+    background-color: #0b2c8d;
+}
+
+.position-top {
+    position: absolute;
+    top: 18px;
+    left: 7px;
+}
+
+.position-top01 {
+    position: absolute;
+    top: 17px;
+    left: 59px;
+}
+
+.position-top02 {
+    position: absolute;
+    top: 18px;
+    left: 107px;
+}
+
+.position-top03 {
+    position: absolute;
+    top: 18px;
+    left: 156px;
+}
+
+.position-top04 {
+    position: absolute;
+    top: 18px;
+    left: 208px;
+}
+
+.gpay-appstore {
+    margin: 20px 4px 0px 4px;
+}
+
+/* hr */
+
+.footer-hr {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.last-div {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height: 50px;
+    position: relative;
+}
+
+.paragraph-font {
+    font-weight: 500;
+    font-size: .75rem;
+    letter-spacing: -.06px;
+    line-height: 1.333333;
+    color: rgb(0 0 0 / 65%);
+}
+
+.right-side {
+    position: absolute;
+    left: 260px;
+    top: 10px;
+}
+
+.four-lins {
+    display: flex;
+    margin-left: 200px;
+}
+
+.lins-01 {
+    padding: 10px 10px 0px 10px;
+}
+
+/* bootstrap collapse */
+
+.collapse-links {
+    display: none;
+}
+
+.four-links {
+    display: none;
+}
+
+/* five-icons */
+
+.five-icons {
+    display:none;
+}
+
+/* Media Query */
+
+@media (max-width : 650px) and (min-width :320px) {
+
+    /* Navbar */
+
+    .navbar {
+        position: relative;
+    }
+
+    /* Offcanvas-Sidebar */
+
+    .offcanvas-display {
+        display: block;
+    }
+
+    .offcanvas-links {
+        color: rgb(59, 57, 57);
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        text-decoration: none;
+    }
+
+    .nav-links {
+        font-weight: 500;
+        color: rgb(72, 68, 68);
+        padding-left: 10px;
+    }
+
+    .fa-plus-icon {
+        position: absolute;
+        left: 280px;
+        color: #234175;
+        margin-top: 13px;
+    }
+
+    .hr-line {
+        width: 280px;
+    }
+
+    /* bars-icon */
+
+    .icon-dp-none {
+        margin-left: 20px;
+        opacity: 0.8;
+    }
+
+    /* jio-logo-div */
+
+    .margin-left-01 {
+        margin-left: 0px;
+        position: absolute;
+        left: 50px;
+    }
+
+    .Search-div {
+        display: flex;
+        height: 35px;
+        width: 190px;
+        background-color: #0a2885;
+        border-radius: 25px;
+        position: absolute;
+        left: 120px;
+    }
+
+    .fa-magnifying-glass {
+        color: white;
+        margin-left: 10px;
+    }
+
+    .search-font {
+        color: white;
+        position: absolute;
+        top: 5px;
+        left: 40px;
+        font-weight: 500;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .span-New {
+        display: none;
+    }
+
+    .span-New-canvas {
+        background-color: #e30513;
+        color: white;
+        font-size: 10px;
+        font-weight: 700;
+        padding: 3px 12px 3px 12px;
+        border-radius: 20px;
+        position: absolute;
+        left: 265px;
+    }
+
+    /* icons */
+
+    .icons-div {
+        margin-right: 0px;
+    }
+
+    .round-shape {
+        margin-left: -70px;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .padding-01 {
+        padding-top: 15px;
+    }
+
+    /* SECTION-ONE */
+
+    /* main-div-01 */
+
+    .position-relative {
+        position: relative;
+        height: 155px;
+    }
+
+    .position-absolute {
+        position: absolute;
+        top: 80px;
+        left: 75px;
+    }
+
+    .Five-G-logo {
+        height: 20px;
+        width: 50px;
+    }
+
+    .video-fonts {
+        font-size: 1.5rem;
+        letter-spacing: -.96px;
+        line-height: 1.125;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .true-5G-fonts {
+        font-size: 1rem;
+        letter-spacing: -0.8px;
+        line-height: 1.5;
+        padding-bottom: 0px;
+    }
+
+    /* buttones */
+
+    .btn-01 {
+        display: none;
+    }
+
+    /* Jio-True-5G-Live-card */
+
+    .bc-color-pink {
+        height: 600px;
+    }
+
+    .true-5G-logo {
+        margin-top: 20px;
+        height: 50px;
+        width: 100px;
+    }
+
+    .video-fonts-02 {
+        font-size: 2.5rem;
+        letter-spacing: -1.44px;
+        line-height: 1.0833333333;
+        padding-left: 90px;
+        max-width: 320px;
+    }
+
+    .display-flex {
+        display: flex;
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .div-width {
+        max-width: fit-content;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .font-weight-1 {
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+    }
+
+    .margin-l {
+        margin-left: 70px;
+    }
+
+    .border-left {
+        border: none;
+        border-bottom: solid 1px white;
+        height: 20px;
+        width: 100px;
+        margin: 0px 0px 30px 150px;
+    }
+
+    .span-font {
+        font-size: 3rem;
+        letter-spacing: -1.92px;
+        line-height: 1.0625;
+        margin-top: 0px;
+        position: absolute;
+        top: -30px;
+        left: 70px;
+    }
+
+    .font-size {
+        text-align: center;
+        padding-left: 50px;
+        max-width: 380px;
+    }
+
+    .position-absolute-01 {
+        position: absolute;
+        top: -35px;
+        left: 210px;
+        font-weight: 900;
+        font-size: 1.5rem;
+    }
+
+    .paragraph-fonts {
+        padding-left: -10x;
+    }
+
+    .btn-interested {
+        display: block;
+        background-color: #ff99db !important;
+        color: #62003f !important;
+        height: 50px;
+        width: 300px;
+        position: absolute;
+        left: 60px;
+    }
+
+    .btn-interested:hover {
+        background-color: #fff7fc !important;
+    }
+
+    /* SECTION-TWO */
+
+    .main-02 {
+        height: 530px;
+        /* width: 4000px; */
+    }
+
+    .text-center {
+        padding: 30px 0px 0px 0px;
+        text-align: start;
+    }
+
+    .heading-01 {
+        font-size: 2.5rem;
+        letter-spacing: -1.44px;
+        line-height: 1.0833333333;
+        text-align: start;
+        max-width: 300px;
+        padding-left: 20px;
+    }
+
+    .font-size-01 {
+        text-align: start;
+        padding: 10px 0px 0px 20px;
+        max-width: 320px;
+    }
+
+    /* marquee-card */
+
+    /* card-01 */
+
+    .card-01 {
+        height: 180px;
+        width: 300px;
+        margin-left: 15px;
+        position: relative;
+    }
+
+    .bc-image-fonts {
+        font-size: 1.5rem;
+        line-height: 1.125;
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    /* card-three */
+
+    /* card-six */
+
+    .image-fonts-position {
+        position: absolute;
+        top: 70px;
+    }
+
+    /* SECTION-THREE */
+
+    /* main-div-03 */
+
+    .main-03 {
+        height: 1135px;
+    }
+
+    /* heading-fonts */
+
+    .heading-02 {
+        display: none;
+    }
+
+    .heading-03 {
+        display: block;
+        font-weight: 900;
+        font-size: 2.5rem;
+        letter-spacing: -1.44px;
+        line-height: 1.0833333333;
+        padding-top: 40px;
+        color: white;
+        text-align: center;
+    }
+
+    .color-grey {
+        font-size: 1.125rem;
+        color: rgb(255 255 255 / 78%);
+        max-width: 350px;
+        padding: 0px 0px 0px 40px;
+    }
+
+    /* Three-Blue-Card  */
+
+    .display-flex-card {
+        display: flex;
+        flex-direction: column;
+        margin: 25px 0px 0px 0px;
+    }
+
+    /* card-01 */
+
+    .card-box {
+        height: 270px;
+        width: 410px;
+        margin: 0px 0px 20px 0px;
+    }
+
+    .svg-icon {
+        margin: 20px 0px 0px 25px;
+    }
+
+    .padding-left {
+        text-align: start;
+        padding-left: 30px;
+    }
+
+    .paragraph {
+        max-width: 395px;
+    }
+
+    /* SECTION-FOUR */
+
+    /* main-div-04 */
+
+    /* bc-image-card */
+
+    .heading-width {
+        max-width: 390px;
+    }
+
+    .bc-image {
+        display: none;
+    }
+
+    /* media-query-card */
+
+    .bc-image-1 {
+        display: block;
+        background-image: url(revised-5g-m.png);
+        background-size: cover;
+        height: 500px;
+        width: 88%;
+        border-radius: 20px;
+        margin: 20px 0px 50px 25px;
+    }
+
+    .parent-div {
+        padding: 220px 0px 0px 25px;
+        position: relative;
+    }
+
+    .font-weight-900 {
+        max-width: 250px;
+        font-size: 2.5rem;
+        line-height: 1.0833333333;
+        letter-spacing: -1.44px;
+    }
+
+    .btn-position {
+        display: block;
+        padding: 10px;
+        position: absolute;
+        top: 420px;
+        left: 10px;
+    }
+
+    /* bc-color-blur/video */
+
+    .display-flex-01 {
+        display: none;
+    }
+
+    .video-card {
+        display: block;
+        height: 480px;
+        background-color: #092272;
+        margin-bottom: 30px;
+    }
+
+    .video-03 {
+        width: 350px;
+        margin: 40px 0px 10px 30px;
+        border-radius: 25px;
+    }
+
+    .margin-left01 {
+        margin: 10px 0px 0px 30px;
+    }
+
+    .bc-color-black {
+        background-color: rgb(95, 94, 94);
+        padding: 6px 15px 6px 10px;
+    }
+
+    .bc-image-lines {
+        font-size: 2rem;
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+
+    .btn-margin {
+        display: block;
+        margin: 20px 0px 0px 0px;
+    }
+
+    /* SECTION-FIVE*/
+
+    .main-05 {
+        height: 1450px;
+    }
+
+    .Three-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* SECTION-SIX*/
+
+    /* main-div-07 */
+
+    .margin {
+        margin: 30px 0px 0px 0px;
+    }
+
+    .nav-pills {
+        margin-left: 20px;
+    }
+
+    .font-weight-2 {
+        padding-left: 20px;
+    }
+
+    .Quetion {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .blue-icon {
+        position: absolute;
+        top: 15px;
+        left: 330px;
+        color: blue;
+    }
+
+    .hr-width {
+        width: 370px;
+        height: 0px;
+    }
+
+    .max-width {
+        max-width: 1100px;
+    }
+
+    .max-width-1 {
+        max-width: 1020px;
+    }
+
+    .minus-margin {
+        margin-top: -18px;
+        max-width: 355px;
+    }
+
+    /* FOOTER */
+
+    /* main-div-7 */
+
+    /* links */
+
+    .main-07 {
+        height: auto;
+    }
+
+    .footer-links {
+        display: none;
+    }
+
+    /* bootstrap collapse */
+
+    .collapse-links {
+        height: auto;
+        margin-top: 50px;
+        position: relative;
+        display: block;
+    }
+
+    .anchor-tag {
+        color: #141414;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: -.08px;
+        line-height: 1.5;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+
+    /* five-icons */
+
+    .five-icons {
+        margin-left: 20px;
+        display: block;
+    }
+
+    .icon-shape {
+        margin: 0px 15px 40px 0px;
+    }
+
+    .gpay-appstore {
+        margin: 10px 0px 0px 0px;
+    }
+
+    /*  hr-line */
+
+    .foot-hr {
+        margin: 50px 0px 20px 0px;
+    }
+
+    .last-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragraph-font {
+        font-weight: 500;
+        font-size: .75rem;
+        letter-spacing: -.06px;
+        line-height: 1.333333;
+        color: rgb(0 0 0 / 65%);
+    }
+
+    .right-side {
+        position: absolute;
+        left: 15px;
+        top: 55px;
+    }
+
+    .four-lins {
+        display: none;
+    }
+
+    .four-links {
+        display: flex;
+        position: absolute;
+        top: 90px;
+        left: 15px;
+        height: 60px;
+    }
+
+    .line-height {
+        letter-spacing: -.06px;
+        line-height: 1.333333;
+        color: #0a2885;
+        font-weight: 500;
+        font-size: .75rem;
+        padding-right: 15px;
+    }
+
+}
